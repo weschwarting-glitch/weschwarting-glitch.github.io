@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request Form</title>
+
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+  <div></div>
+  <header>
+    <h1>Request Form</h1>
+    <p>Use this form to submit a request.</p>
+  </header>
+
+  <main>
+    <form>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="type">Request Type</label>
+      <select id="type" name="type">
+        <option value="help">Help</option>
+        <option value="design">Design Request</option>
+        <option value="update">Website Update</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="details">Request Details</label>
+      <textarea id="details" name="details" rows="5" required></textarea>
+
+      <button type="submit">Submit Request</button>
+
+    </form>
+  </main>
+
+  <footer>
+    <p>GitHub Pages Request Form</p>
+  </footer>
+
+</body>
+</html>
