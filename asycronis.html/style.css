@@ -1,0 +1,23 @@
+
+.page {
+  display: flex;
+  gap: 1rem;
+}
+
+.content {
+  flex: 1;
+  background: rgb(0, 255, 4);
+  padding: 1rem;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  background: rgb(17, 0, 255);
+  padding: 1rem;
+}
+
+@media (max-width: 700px) {
+  .page {
+    flex-direction: column;
+  }
+}
